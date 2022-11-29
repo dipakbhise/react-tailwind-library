@@ -1,8 +1,8 @@
 # react-tailwind-library
 
 ## Setup Tailwind CSS
-Using official Tailwind DOCS
-[](https://tailwindcss.com/docs/installation)
+Using official Tailwind Docs
+https://tailwindcss.com/docs/installation
 
 ## Install
 Using npm:
