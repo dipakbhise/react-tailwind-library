@@ -2,7 +2,7 @@
 
 ## Setup Tailwind CSS
 Using official Tailwind DOCS
-[https://tailwindcss.com/docs/installation]
+https://tailwindcss.com/docs/installation
 
 ## Install
 Using npm:
