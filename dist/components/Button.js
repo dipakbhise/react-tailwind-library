@@ -10,7 +10,9 @@ const Button = props => {
   const {
     text
   } = props;
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("button", null, text));
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("button", {
+    className: "px-2 py-1 bg-violet-400 rounded"
+  }, text));
 };
 var _default = Button;
 exports.default = _default;
