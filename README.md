@@ -18,6 +18,7 @@ yarn add react-tailwind-library
 ```
 
 ## Usage
+> We can use it in React and Next JS projects
 
 ```js
 import { Button } from 'react-tailwind-library';
