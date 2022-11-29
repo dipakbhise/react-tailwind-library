@@ -24,7 +24,8 @@ yarn add react-tailwind-library
 import { Button } from 'react-tailwind-library';
 ```
 ## Add CSS in your Root Directory 
-If NextJs add this in _app.js file
+> In ReactJs add this in `index.js` file
+> In NextJs add this in `_app.js` file
 ```css
 import '../node_modules/react-tailwind-library/dist/style.css';
 ```
