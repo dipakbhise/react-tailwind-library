@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { CloseIcon } from "../icons/Icons";
+import { CloseIcon } from "./icons/Icons";
 
 var inputValue = "";
 var refdata = [];
