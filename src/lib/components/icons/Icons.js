@@ -2,8 +2,7 @@ import React from "react";
 
 export const CloseIcon = ({ size = 24, color = "#000000", bg = 'violet' }) => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
+    <svg xmlns={"http://www.w3.org/2000/svg"}
       width={size}
       height={size}
       stroke={color}
@@ -20,7 +19,7 @@ export const CloseIcon = ({ size = 24, color = "#000000", bg = 'violet' }) => {
 export const RightIcon = ({ size = 24, color = "#000000" }) => {
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns={"http://www.w3.org/2000/svg"}
       width={size}
       height={size}
       viewBox="0 0 24 24"

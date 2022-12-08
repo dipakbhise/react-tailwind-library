@@ -1,21 +1,28 @@
 import { useState } from "react";
+import { Combobox } from "react-tailwind-library";
 import Button from "./lib/components/Button";
-import Combobox from "./lib/components/Combobox";
+// import Combobox from "./lib/components/Combobox";
 
 // const data = ["hi", "hello", "hey", "hi", "hello", "hey"];
-const data = [{name:'test1'}, {name:'est1'}, {name:'wert'}, {name:'trey'}, {name:'hgi'}];
+const data = [
+  { name: "test1" },
+  { name: "est1" },
+  { name: "wert" },
+  { name: "trey" },
+  { name: "hgi" },
+];
 let inputProps = {
   onInput: () => {
     console.log("on input");
   },
 };
 function App() {
-  const [value, setvalue] = useState('');
+  const [value, setvalue] = useState([]);
   return (
     <div className="App">
       <Button text={"hii"} />
 
-      <Combobox
+      {/* <Combobox
         options={data}
         title={"combobox"}
         value={value}
@@ -23,6 +30,16 @@ function App() {
         inputProps={inputProps}
         // multiselect={true}
         textField={'name'}
+      /> */}
+
+      <Combobox
+        options={data}
+        title={"combobox"}
+        value={value}
+        setvalue={setvalue}
+        inputProps={inputProps}
+        multiselect={true}
+        textField={"name"}
       />
 
       {/* <Combobox
