@@ -1,9 +1,10 @@
 {
   "name": "react-tailwind-library",
-  "version": "0.5.11",
+  "version": "0.5.10",
   "private": false,
   "description": "React UI Components using TailwindCSS",
   "author": "dipakbhise420@gmail.com",
+  "license": "MIT",
   "keywords": [
     "combobox",
     "form",
@@ -42,7 +43,6 @@
     "build": "react-scripts build",
     "build:package": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
     "build:css": "tailwindcss -o dist/style.css --minify",
-    "publish": "npm publish",
     "patch": "npm version patch && npm publish",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
