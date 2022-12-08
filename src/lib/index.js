@@ -1,4 +1,4 @@
 import Button from "./components/Button";
+import Combobox from "../components/Combobox";
 
-
-export {Button};
+export {Button, Combobox};
