@@ -16,5 +16,5 @@ Object.defineProperty(exports, "Combobox", {
   }
 });
 var _Button = _interopRequireDefault(require("./components/Button"));
-var _Combobox = _interopRequireDefault(require("../components/Combobox"));
+var _Combobox = _interopRequireDefault(require("./components/Combobox"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
