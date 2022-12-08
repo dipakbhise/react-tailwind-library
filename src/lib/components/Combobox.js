@@ -111,9 +111,16 @@ const Combobox = (props) => {
   };
 
   const removeValue = (option, index) => {
+    console.log("index", index);
     let modifyValue = [...value];
     modifyValue.splice(index, 1);
     setvalue(modifyValue);
+    // if (textField) {
+    // } else {
+    //   let modifyValue = [...value];
+    //   modifyValue.splice(index, 1);
+    //   setvalue(modifyValue);
+    // }
   };
 
   return (
@@ -144,6 +151,7 @@ const Combobox = (props) => {
                   onComboboxFilterChangeFun(event, textField)
                 }
                 {...inputProps}
+                // value={value[textField] ? value[textField] : value}
               />
             </div>
 
