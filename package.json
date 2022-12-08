@@ -4,7 +4,6 @@
   "private": false,
   "description": "React UI Components using TailwindCSS",
   "author": "dipakbhise420@gmail.com",
-  "license": "MIT",
   "keywords": [
     "combobox",
     "form",
