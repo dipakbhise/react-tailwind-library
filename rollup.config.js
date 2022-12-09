@@ -1,6 +1,5 @@
 import styles from "rollup-plugin-styles";
 const autoprefixer = require('autoprefixer');
-import { terser } from 'rollup-plugin-terser'
 import babel from '@rollup/plugin-babel';
 import sourcemaps from "rollup-plugin-sourcemaps";
 
