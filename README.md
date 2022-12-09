@@ -21,7 +21,6 @@ yarn add react-tailwind-library
 > We can use it in React and Next JS projects
 
 ```js
-import { Combobox } from 'react-tailwind-library';
 import { Button } from 'react-tailwind-library';
 ```
 ## Add CSS in your Root Directory 
