@@ -13,7 +13,7 @@ const Combobox = (props) => {
     inputProps,
     multiselect,
   } = props;
-  const optionsRef = useRef();
+  const optionsRef = useRef(null);
   const [isoptions, setIsoptions] = useState(false);
   const [data, setdata] = useState([]);
   const [ismultioptions, setismultioptions] = useState(false);
