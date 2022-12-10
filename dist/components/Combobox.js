@@ -25,7 +25,7 @@ const Combobox = props => {
     inputProps,
     multiselect
   } = props;
-  const optionsRef = (0, _react.useRef)();
+  const optionsRef = (0, _react.useRef)(null);
   const [isoptions, setIsoptions] = (0, _react.useState)(false);
   const [data, setdata] = (0, _react.useState)([]);
   const [ismultioptions, setismultioptions] = (0, _react.useState)(false);
