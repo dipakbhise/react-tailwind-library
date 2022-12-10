@@ -1,7 +1,5 @@
 import { useState } from "react";
-import { Combobox } from "react-tailwind-library";
-import Button from "./lib/components/Button";
-// import Combobox from "./lib/components/Combobox";
+import { Button, Combobox } from "./lib";
 
 // const data = ["hi", "hello", "hey", "hi", "hello", "hey"];
 const data = [
@@ -17,20 +15,10 @@ let inputProps = {
   },
 };
 function App() {
-  const [value, setvalue] = useState([]);
+  const [value, setvalue] = useState([{ name: "test1" },]);
   return (
     <div className="App">
       <Button text={"hii"} />
-
-      {/* <Combobox
-        options={data}
-        title={"combobox"}
-        value={value}
-        setvalue={setvalue}
-        inputProps={inputProps}
-        // multiselect={true}
-        textField={'name'}
-      /> */}
 
       <Combobox
         options={data}
@@ -42,15 +30,7 @@ function App() {
         textField={"name"}
       />
 
-      {/* <Combobox
-        options={data}
-        title={"combobox"}
-        value={value}
-        setvalue={setvalue}
-        inputProps={inputProps}
-        multiselect={true}
-        textField={'name'}
-      /> */}
+
     </div>
   );
 }
