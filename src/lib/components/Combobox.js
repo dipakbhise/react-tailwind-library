@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { CloseIcon } from "./icons/Icons";
+import { CloseIcon } from "../icons/Icons";
 
 var inputValue = "";
 var refdata = [];
@@ -111,16 +111,9 @@ const Combobox = (props) => {
   };
 
   const removeValue = (option, index) => {
-    console.log("index", index);
     let modifyValue = [...value];
     modifyValue.splice(index, 1);
     setvalue(modifyValue);
-    // if (textField) {
-    // } else {
-    //   let modifyValue = [...value];
-    //   modifyValue.splice(index, 1);
-    //   setvalue(modifyValue);
-    // }
   };
 
   return (
@@ -143,7 +136,7 @@ const Combobox = (props) => {
                 </div>
               ))}
               <input
-                className="outline-none p-1 w-[-webkit-fill-available]"
+                className="outline-none p-1"
                 onClick={() => {
                   setismultioptions(!ismultioptions);
                 }}
@@ -151,7 +144,6 @@ const Combobox = (props) => {
                   onComboboxFilterChangeFun(event, textField)
                 }
                 {...inputProps}
-                // value={value[textField] ? value[textField] : value}
               />
             </div>
 
