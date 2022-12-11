@@ -136,7 +136,7 @@ const Combobox = (props) => {
                 </div>
               ))}
               <input
-                className="outline-none p-1"
+                className="outline-none p-1 w-[-webkit-fill-available]"
                 onClick={() => {
                   setismultioptions(!ismultioptions);
                 }}

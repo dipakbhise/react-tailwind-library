@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { CloseIcon } from "../icons/Icons";
+import { CloseIcon } from "./icons/Icons";
 
 var inputValue = "";
 var refdata = [];
@@ -136,7 +136,7 @@ const Combobox = (props) => {
                 </div>
               ))}
               <input
-                className="outline-none p-1"
+                className="outline-none p-1 w-[-webkit-fill-available]"
                 onClick={() => {
                   setismultioptions(!ismultioptions);
                 }}

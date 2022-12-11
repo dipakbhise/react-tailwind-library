@@ -115,18 +115,10 @@ const Combobox = props => {
     }
   };
   const removeValue = (option, index) => {
-    console.log("index", index);
     let modifyValue = [...value];
     modifyValue.splice(index, 1);
     setvalue(modifyValue);
-    // if (textField) {
-    // } else {
-    //   let modifyValue = [...value];
-    //   modifyValue.splice(index, 1);
-    //   setvalue(modifyValue);
-    // }
   };
-
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, multiselect ? /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "relative w-44 m-4 p-1",
     ref: optionsRef
@@ -147,7 +139,7 @@ const Combobox = props => {
     size: "18",
     bg: "white"
   })))), /*#__PURE__*/_react.default.createElement("input", _extends({
-    className: "outline-none p-1",
+    className: "outline-none p-1 w-[-webkit-fill-available]",
     onClick: () => {
       setismultioptions(!ismultioptions);
     },
