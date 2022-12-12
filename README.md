@@ -18,12 +18,15 @@ yarn add react-tailwind-library
 ```
 
 ## Add CSS in your Root Directory 
- > In ReactJs add this in `index.js` file : <br/>
- 
- > In NextJs add this in `_app.js` file :
+
 ```css
 import '../node_modules/react-tailwind-library/dist/style.css';
 ```
+
+ > In ReactJs import above css in `index.js` file : <br/>
+ 
+ > In NextJs import above css in `_app.js` file :
+
 
 ## Usage
 > We can use it in React and Next JS projects
