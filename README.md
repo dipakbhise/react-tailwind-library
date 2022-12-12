@@ -71,13 +71,15 @@ export default App;
 
 Common props you may want to specify include:
 
-- `inputProps` - Object containing on input events, attributes etc.(Object)
-- `multiselect` - allow the user to select multiple values.(Boolean)
-- `options` - specify the options the user can select from.(Array)
-- `title` - label for the combobox.(String)
-- `textField` - if options are array of objects then the `key` for options and value to display.(String)
-- `value` - control the current value.(String/Object)
-- `setvalue` - Function to set selcted value.(Function)
+- `inputProps` - Object containing on input events, attributes etc.`(Object)`
+- `multiselect` - allow the user to select multiple values.`(Boolean)`
+- `options` - specify the options the user can select from.`(Array)`
+- `title` - label for the combobox.`(String)`
+- `textField` - if options are array of objects then the `key` for options and value to display.`(String)`
+- `value` - control the current value.`(String/Object)`
+- `setvalue` - Function to set selcted value.`(Function)`
+
+- `More Features and Props wil be published on next version`
 
 
 
